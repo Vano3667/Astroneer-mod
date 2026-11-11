@@ -69,13 +69,23 @@
 | Android NDK | r21e | `tools\android-ndk\android-ndk-r21e\` |
 | GitHub CLI | 2.67.0 | `C:\Program Files\GitHub CLI\gh.exe` |
 
+## Установленные инструменты
+
+| Инструмент | Версия | Путь | Статус |
+|---|---|---|---|
+| FModel | Nov 2026 | `tools\FModel\FModel.exe` | ✅ Работает (net10) |
+| UEVR | 1.05 | `tools\UEVR\UEVRInjector.exe` | ✅ Готов |
+| Android NDK | r21e | `tools\android-ndk\android-ndk-r21e\` | ✅ Готов |
+| GitHub CLI | 2.67.0 | `C:\Program Files\GitHub CLI\gh.exe` | ✅ Работает |
+| .NET Desktop 10 | 10.0.15 | winget | ✅ Установлен |
+
 ## Следующий шаг
 
 **Фаза 0.3** — Извлечь ассеты Astroneer:
-1. Запустить `tools\FModel\FModel.exe`
-2. Указать путь к .pak: `C:\ASTRONEER\Astro\Content\Paks\Astro-WindowsNoEditor.pak`
-3. Выбрать версию UE: **4.23**
-4. Извлечь все ассеты в `C:\Users\Иван\Downloads\DotAi\astroneer_assets\`
+1. Запустить FModel: `tools\launch_fmodel.bat`
+2. Указать .pak: `C:\ASTRONEER\Astro\Content\Paks\Astro-WindowsNoEditor.pak` (2.8 ГБ)
+3. UE Version: **4.23**
+4. Extract all → `C:\Users\Иван\Downloads\DotAi\astroneer_assets\`
 
 ---
 
