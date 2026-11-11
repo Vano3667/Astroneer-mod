@@ -177,39 +177,61 @@ $body | gh api -X PUT /repos/Vano3667/Astroneer-mod/contents/AGENT.md --input -
 
 ---
 
+## РАСПРЕДЕЛЕНИЕ МОДЕЛЕЙ ПО АГЕНТАМ
+
+| Агент | Модель | Фаза | Задача | Результат |
+|---|---|---|---|---|
+| **Агент А** | **DeepSeek V4 Pro** | Фаза 1 | UEVR тест | `UEVR_REPORT.md` |
+| **Агент Б** | **Claude Opus 5.5** | Фаза 2 | Анализ Blueprint'ов (самая сложная) | `ARCHITECTURE.md` |
+| **Агент В** | **DeepSeek V4 Pro** | Фаза 2 | Анализ UI/ресурсов | `UI_ANALYSIS.md` |
+
+## ⚠️ КООРДИНАЦИЯ
+
+**Все агенты обязаны:**
+1. Прочитать `COORDINATION.md` в репо — там статусы и коммуникация
+2. Обновлять свой статус в `COORDINATION.md` (⏳→🔄→✅)
+3. Коммитить результаты в репо
+4. При блокировке — писать в раздел "Запросы" файла `COORDINATION.md`
+
 ## ПЛАН ДЛЯ 3 ПАРАЛЛЕЛЬНЫХ АГЕНТОВ
 
-### Агент А: UEVR Тест (Фаза 1)
+### Агент А (DeepSeek V4 Pro): UEVR Тест (Фаза 1)
 **Файлы**: `C:\ASTRONEER\tools\UEVR\UEVRInjector.exe`
 **Игра**: `C:\ASTRONEER\steamrip\ASTRONEER\Astro\Binaries\Win64\Astro-Win64-Shipping.exe`
 **Задача**:
-1. Запустить игру через UEVR
-2. UEVR настройки: OpenVR, синхронизированный рендер
-3. Проверить: стерео работает? Управление VR-контроллерами? UI виден?
-4. Результат: `UEVR_REPORT.md` со скриншотами
+1. Дождаться завершения экспорта FModel
+2. Запустить игру через UEVR
+3. UEVR настройки: OpenVR, синхронизированный рендер
+4. Проверить: стерео работает? Управление VR-контроллерами? UI виден?
+5. Результат: `UEVR_REPORT.md` со скриншотами
+6. Обновить статус в `COORDINATION.md`
 
-### Агент Б: Анализ Blueprint'ов (Фаза 2)
+### Агент Б (Claude Opus 5.5): Анализ Blueprint'ов (Фаза 2)
 **Вход**: `C:\ASTRONEER\tools\astroneer_assets\`
 **Задача**:
-1. Экспортировать Decompiled Blueprints из FModel (правый клик → Export Folder → Decompiled Blueprints)
-2. Найти ключевые классы:
+1. Дождаться завершения экспорта FModel
+2. Экспортировать Decompiled Blueprints из FModel (правый клик → Export Folder → Decompiled Blueprints)
+3. Найти ключевые классы:
    - `*PlayerController*` — управление
    - `*PlayerCharacter*` или `*Pawn*` — персонаж
    - `*Camera*` — камера
    - `*GameMode*` — игровая логика
    - `*HUD*` — интерфейс
    - `*Input*` — обработка ввода
-3. Экспортировать Properties (.json) для этих классов
-4. Результат: `ARCHITECTURE.md` с картой классов
+4. Экспортировать Properties (.json) для этих классов
+5. Результат: `ARCHITECTURE.md` с картой классов
+6. Обновить статус в `COORDINATION.md`
 
-### Агент В: Анализ UI и ресурсов (Фаза 2)
+### Агент В (DeepSeek V4 Pro): Анализ UI и ресурсов (Фаза 2)
 **Вход**: `C:\ASTRONEER\tools\astroneer_assets\Astro\Content\UI\`
 **Задача**:
-1. Проанализировать UI Blueprint'ы (Widget Blueprints)
-2. Найти HUD, меню, инвентарь
-3. Оценить объём работы для VR-адаптации UI
-4. Найти текстуры UI (.png в папке UI/)
-5. Результат: `UI_ANALYSIS.md`
+1. Дождаться завершения экспорта FModel
+2. Проанализировать UI Blueprint'ы (Widget Blueprints)
+3. Найти HUD, меню, инвентарь
+4. Оценить объём работы для VR-адаптации UI
+5. Найти текстуры UI (.png в папке UI/)
+6. Результат: `UI_ANALYSIS.md`
+7. Обновить статус в `COORDINATION.md`
 
 ---
 
