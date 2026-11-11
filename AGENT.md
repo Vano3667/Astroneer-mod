@@ -48,10 +48,21 @@
 
 ---
 
+## Результаты анализа
+
+### Фаза 0.1 — Версия Unreal Engine ✅ ВЫПОЛНЕНО
+
+- **Версия UE**: **4.23.1** (определено по FileVersionRaw Astro.exe)
+- **Версия игры**: 1.33.14.0 Shipping
+- **Путь**: `C:\ASTRONEER\`
+- **Размер .pak**: `Astro-WindowsNoEditor.pak` — **2.8 ГБ**
+- **Доп. pak**: `Astrooptional-WindowsNoEditor.pak` — 52 КБ
+- **Сторонние библиотеки**: PhysX3, Steamworks, Ogg/Vorbis, NVIDIA
+- **Особенность**: Не Steam-версия — установлена напрямую в `C:\ASTRONEER`
+
 ## Следующий шаг
 
-**Фаза 0.1** — Определить версию Unreal Engine у Astroneer.
-Нужно найти папку с игрой (SteamLibrary\steamapps\common\Astroneer) и проверить свойства Astro.exe.
+**Фаза 0.2** — Установка инструментов: FModel, UnrealPak, UE4 Editor (4.23.1), Android NDK, UEVR
 
 ---
 
