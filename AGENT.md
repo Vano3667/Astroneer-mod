@@ -2,114 +2,105 @@
 
 ## Статус проекта
 
-**Дата обновления**: 2026-11-11
+**Дата обновления**: 2026-11-12
 **Аккаунт**: Vano3667
 **Репозиторий**: github.com/Vano3667/Astroneer-mod
+**Фаза**: 0.3 — Анализ ассетов
 
 ---
 
-## Что сделано (Session 1)
+## Что сделано на 2026-11-12
 
-- [x] Выбор платформы для моддинга: Steam-версия Astroneer (Windows)
-- [x] Определена стратегия: начать с UEVR (прототип), затем standalone-порт на Quest 3
-- [x] Установлен GitHub CLI (gh 2.67.0)
-- [x] Настроена авторизация GitHub через токен (scopes: repo, workflow, admin:org, gist, project, write:packages)
-- [x] Создан репозиторий Astroneer-mod
-- [x] Написан подробный промт для AI-агента (astroneer_vr_prompt.md)
-
----
-
-## План работ (дорожная карта)
-
-### Фаза 0 — Подготовка среды
-- [x] 0.1 Определение версии Unreal Engine у Astroneer ✅
-- [x] 0.2 Установка инструментов ✅ (FModel, UEVR, Android NDK r21e)
-- [ ] 0.3 Извлечение ассетов Astroneer (.pak -> файлы) 🔄
-
-### Фаза 1 — Прототип VR (UEVR)
-- [ ] 1.0 Запуск Astroneer с UEVR на ПК (через AirLink/VD)
-- [ ] 1.1 Документирование проблем (рендер, UI, управление, физика)
-
-### Фаза 2 — Анализ архитектуры
-- [ ] Изучение Blueprint'ов и C++ классов через FModel
-- [ ] Карта зависимостей
-- [ ] Точки входа для VR-инъекций
-
-### Фаза 3 — VR-интеграция на ПК
-- [ ] Стерео-рендер
-- [ ] Motion Controls
-- [ ] VR-UI
-
-### Фаза 4 — Порт на Android / Quest 3 (standalone)
-- [ ] Кросс-компиляция UE4 под ARM64
-- [ ] Адаптация под Adreno GPU
-- [ ] Oculus Mobile SDK / OpenXR
-- [ ] Оптимизация (ATW, FFR, foveated rendering)
+- [x] Установлен .NET Desktop Runtime 10.0.15 (через winget)
+- [x] FModel скопирован в `C:\ASTRONEER\tools\FModel` (без кириллицы)
+- [x] UEVR скопирован в `C:\ASTRONEER\tools\UEVR` (без кириллицы)
+- [x] Написан Python-скрипт для анализа .pak (`C:\ASTRONEER\tools\extract_pak.py`)
+- [x] Проанализирован `Astro-WindowsNoEditor.pak`: **43 280 записей, версия 8, footer найден**
+- [x] Обнаружена **обфускация имён файлов** в индексе .pak
 
 ---
 
-## Результаты анализа
+## КЛЮЧЕВОЕ ОТКРЫТИЕ
 
-### Фаза 0.1 — Версия Unreal Engine ✅ ВЫПОЛНЕНО
+**.pak файл Astroneer имеет обфусцированные/зашифрованные имена файлов.** Из 43 280 записей только ~560 имеют осмысленные имена. Остальные — мусор/бинарные данные вместо имён. Это типично для пиратских репаков.
 
-- **Версия UE**: **4.23.1** (определено по FileVersionRaw Astro.exe)
-- **Версия игры**: 1.33.14.0 Shipping
-- **Путь**: `C:\ASTRONEER\`
-- **Размер .pak**: `Astro-WindowsNoEditor.pak` — **2.8 ГБ**
-- **Доп. pak**: `Astrooptional-WindowsNoEditor.pak` — 52 КБ
-- **Сторонние библиотеки**: PhysX3, Steamworks, Ogg/Vorbis, NVIDIA
-- **Особенность**: Не Steam-версия — установлена напрямую в `C:\ASTRONEER`
+**НО**: данные (сами файлы) читаются — мы можем извлечь их по смещениям в `C:\ASTRONEER\tools\extract_pak.py`.
 
-## Установленные инструменты
+---
 
-| Инструмент | Версия | Путь |
-|---|---|---|
-| FModel | Nov 2026 | `tools\FModel\FModel.exe` |
-| UEVR | 1.05 | `tools\UEVR\UEVRInjector.exe` |
-| Android NDK | r21e | `tools\android-ndk\android-ndk-r21e\` |
-| GitHub CLI | 2.67.0 | `C:\Program Files\GitHub CLI\gh.exe` |
+## План действий для агентов (Фаза 0.3 → Фаза 1 → Фаза 2)
+
+### Агент А: Извлечение ассетов
+**Файл-основа**: `C:\ASTRONEER\tools\extract_pak.py`
+**Задача**: Допилить скрипт, чтобы он извлекал файлы без имён (по смещениям с авто-именами типа file_0001.bin)
+
+### Агент Б: UEVR-анализ (приоритет!)
+**Инструмент**: `C:\ASTRONEER\tools\UEVR\UEVRInjector.exe`
+**Задача**: Запустить Astroneer через UEVR, получить список ресурсов в рантайме, протестировать базовый VR
+
+### Агент В: Изучение структуры .pak
+**Задача**: Найти способ деобфускации имён. Возможные подходы:
+- Проверить `Astrooptional-WindowsNoEditor.pak` (52 КБ) — он может содержать ключ
+- Поискать AES ключ в бинарниках игры (dumpbin, strings)
+- Проверить `Astro\Binaries\Win64\Astro-Win64-Shipping.exe` (основной бинарник)
+
+---
 
 ## Установленные инструменты
 
 | Инструмент | Версия | Путь | Статус |
 |---|---|---|---|
-| FModel | Nov 2026 | `tools\FModel\FModel.exe` | ✅ Работает (net10) |
-| UEVR | 1.05 | `tools\UEVR\UEVRInjector.exe` | ✅ Готов |
-| Android NDK | r21e | `tools\android-ndk\android-ndk-r21e\` | ✅ Готов |
+| FModel | Nov 2026 | `C:\ASTRONEER\tools\FModel\FModel.exe` | ⚠️ Баг MainWindow (обход: .bat с DOTNET_BUNDLE_EXTRACT_BASE_DIR) |
+| UEVR | 1.05 | `C:\ASTRONEER\tools\UEVR\UEVRInjector.exe` | ⚠️ Падает из-за кириллицы в TEMP |
+| Android NDK | r21e | `C:\ASTRONEER\tools\android-ndk\android-ndk-r21e\` | ✅ Готов |
 | GitHub CLI | 2.67.0 | `C:\Program Files\GitHub CLI\gh.exe` | ✅ Работает |
 | .NET Desktop 10 | 10.0.15 | winget | ✅ Установлен |
+| Python | 3.12.10 | `py -3.12` | ✅ Работает |
 
-## Следующий шаг
+---
 
-**Фаза 0.3** — Извлечь ассеты Astroneer:
-1. Запустить FModel: `tools\launch_fmodel.bat`
-2. Указать .pak: `C:\ASTRONEER\Astro\Content\Paks\Astro-WindowsNoEditor.pak` (2.8 ГБ)
-3. UE Version: **4.23**
-4. Extract all → `C:\Users\Иван\Downloads\DotAi\astroneer_assets\`
+## Структура репозитория
+
+```
+Astroneer-mod/
+├── AGENT.md                 ← этот файл
+├── astroneer_vr_prompt.md   ← исходный промт
+├── tools/
+│   ├── extract_pak.py       ← Python-скрипт для .pak
+│   ├── pak_filelist.txt     ← список категорий
+│   ├── launch_fmodel.bat    ← запуск FModel
+│   ├── FModel/              ← FModel (GUI)
+│   ├── UEVR/                ← UEVR (инжектор)
+│   ├── android-ndk/         ← Android NDK r21e
+│   └── temp/                ← чистый TEMP (без кириллицы)
+└── astroneer_assets/        ← будут извлечённые файлы
+```
 
 ---
 
 ## Технический контекст
 
-- **Уровень разработчика**: Начинающий
-- **Игра**: Astroneer на Unreal Engine 4
-- **Целевая платформа**: Meta Quest 3 (standalone, Android/ARM64)
-- **GitHub CLI**: установлен (2.67.0), авторизован
-- **Git**: установлен (2.56.1), но заблокирован песочницей DSH
-- **DSH workspace**: C:\Users\Иван\Downloads\DotAi
+- **Версия UE**: 4.23.1
+- **Версия игры**: 1.33.14.0 Shipping
+- **Путь к игре**: `C:\ASTRONEER\`
+- **Главный .pak**: `Astro\Content\Paks\Astro-WindowsNoEditor.pak` (2.8 ГБ, 43 280 файлов)
+- **Проблема с путями**: КИРИЛЛИЦА в `C:\Users\Иван` ломает FModel и UEVR. ВСЕ инструменты запускать из `C:\ASTRONEER\tools\`
+- **TEMP без кириллицы**: `$env:TEMP = "C:\ASTRONEER\tools\temp"` перед запуском GUI-инструментов
+- **GitHub**: только через `gh api`, git напрямую заблокирован песочницей
+- **GH_TOKEN**: `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`
 
 ---
 
 ## История сессий
 
-### Session 1 (2026-11-11)
-- Анализ платформ, выбор Windows/Steam
-- Стратегия: UEVR -> standalone
-- Установка GitHub CLI
-- Авторизация GitHub (токен)
-- Создание репозитория Astroneer-mod
-- Написание промта для AI-агента (astroneer_vr_prompt.md)
-- Создание AGENT.md (этот файл)
-- Первый коммит: AGENT.md + astroneer_vr_prompt.md залиты в репо через gh api
-- Настроен workflow: AGENT.md будет обновляться после каждого этапа
-- Обход песочницы DSH для Git: используем gh api вместо git push
+### Session 1 (2026-11-11): Настройка окружения
+- Определена версия UE: 4.23.1
+- Установлены GitHub CLI, FModel, UEVR, Android NDK
+- Создан репозиторий, настроен workflow
+
+### Session 2 (2026-11-12): Анализ .pak
+- Установлен .NET Desktop Runtime 10.0.15
+- Обнаружена проблема с кириллицей в путях
+- Написан Python-скрипт для анализа .pak
+- ОБНАРУЖЕНА обфускация имён в индексе .pak
+- Требуется деобфускация или извлечение без имён
