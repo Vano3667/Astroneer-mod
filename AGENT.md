@@ -22,9 +22,9 @@
 ## План работ (дорожная карта)
 
 ### Фаза 0 — Подготовка среды
-- [ ] 0.1 Определение версии Unreal Engine у Astroneer
-- [ ] 0.2 Установка инструментов: FModel, UnrealPak, UE4 Editor, Android NDK, UEVR
-- [ ] 0.3 Извлечение ассетов Astroneer (.pak -> файлы)
+- [x] 0.1 Определение версии Unreal Engine у Astroneer ✅
+- [x] 0.2 Установка инструментов ✅ (FModel, UEVR, Android NDK r21e)
+- [ ] 0.3 Извлечение ассетов Astroneer (.pak -> файлы) 🔄
 
 ### Фаза 1 — Прототип VR (UEVR)
 - [ ] 1.0 Запуск Astroneer с UEVR на ПК (через AirLink/VD)
@@ -60,9 +60,22 @@
 - **Сторонние библиотеки**: PhysX3, Steamworks, Ogg/Vorbis, NVIDIA
 - **Особенность**: Не Steam-версия — установлена напрямую в `C:\ASTRONEER`
 
+## Установленные инструменты
+
+| Инструмент | Версия | Путь |
+|---|---|---|
+| FModel | Nov 2026 | `tools\FModel\FModel.exe` |
+| UEVR | 1.05 | `tools\UEVR\UEVRInjector.exe` |
+| Android NDK | r21e | `tools\android-ndk\android-ndk-r21e\` |
+| GitHub CLI | 2.67.0 | `C:\Program Files\GitHub CLI\gh.exe` |
+
 ## Следующий шаг
 
-**Фаза 0.2** — Установка инструментов: FModel, UnrealPak, UE4 Editor (4.23.1), Android NDK, UEVR
+**Фаза 0.3** — Извлечь ассеты Astroneer:
+1. Запустить `tools\FModel\FModel.exe`
+2. Указать путь к .pak: `C:\ASTRONEER\Astro\Content\Paks\Astro-WindowsNoEditor.pak`
+3. Выбрать версию UE: **4.23**
+4. Извлечь все ассеты в `C:\Users\Иван\Downloads\DotAi\astroneer_assets\`
 
 ---
 
