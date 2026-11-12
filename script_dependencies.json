@@ -1,0 +1,1158 @@
+{
+  "description": "C++ module dependencies extracted from all .uasset files (equivalent to partial SDK dump)",
+  "total_unique_modules": 23,
+  "total_unique_assets": 17090,
+  "cxx_modules": [
+    {
+      "module": "/Script/CoreUObject",
+      "usage_count": 16123,
+      "used_by": [
+        "/Game/Globals/AchievementDefinitionTable",
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/Globals/AstroColorDatabase",
+        "/Game/Globals/AstroCustomGameSettingsTagsDatabase",
+        "/Game/Globals/AstroGameModeInstance"
+      ]
+    },
+    {
+      "module": "/Script/Engine",
+      "usage_count": 15261,
+      "used_by": [
+        "/Game/Globals/AchievementDefinitionTable",
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/Globals/AstroGameModeInstance",
+        "/Game/Globals/AstroMacroLibrary",
+        "/Game/Globals/AstroNotificationDatabase"
+      ]
+    },
+    {
+      "module": "/Script/Astro",
+      "usage_count": 4119,
+      "used_by": [
+        "/Game/Globals/AchievementDefinitionTable",
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/Globals/AstroColorDatabase",
+        "/Game/Globals/AstroCustomGameSettingsTagsDatabase",
+        "/Game/Globals/AstroGameModeInstance"
+      ]
+    },
+    {
+      "module": "/Script/NavigationSystem",
+      "usage_count": 1954,
+      "used_by": [
+        "/Game/UI/content/buttons/concepts/button_refine2",
+        "/Game/UI/content/buttons/inners/arrow_left_static",
+        "/Game/UI/content/buttons/inners/arrow_right_static",
+        "/Game/UI/content/buttons/inners/icon_envelope",
+        "/Game/UI/content/buttons/inners/inner_cancel"
+      ]
+    },
+    {
+      "module": "/Script/Terrain2",
+      "usage_count": 966,
+      "used_by": [
+        "/Game/UI/PauseMenu/CustomGameMode/CustomSettingsShareCodeSection",
+        "/Game/UI/PauseMenu/CustomGameMode/GameMenuGameConfigurationAstropediaBiomeEntry",
+        "/Game/UI/PauseMenu/CustomGameMode/GameMenuGameConfigurationAstropediaModifierEntry",
+        "/Game/UI/PauseMenu/CustomGameMode/GameMenuGameConfigurationAstropediaPlanetEntry",
+        "/Game/UI/PauseMenu/CustomGameMode/BiomeSettings/CustomGameModeBiomeSettingsBiomeEntry"
+      ]
+    },
+    {
+      "module": "/Script/UMG",
+      "usage_count": 529,
+      "used_by": [
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/AstroPopupBadgeDatabaseInstance",
+        "/Game/Globals/AstroUIStylingDatabase",
+        "/Game/Globals/FadeToBlackActor"
+      ]
+    },
+    {
+      "module": "/Script/GameplayTags",
+      "usage_count": 424,
+      "used_by": [
+        "/Game/Globals/AstroCustomGameSettingsTagsDatabase",
+        "/Game/Globals/Astro_Gates_GameMode_Instance",
+        "/Game/Globals/CGMModifierCategoryDefaultValuesDatabase",
+        "/Game/Globals/CustomGameSettingsTags",
+        "/Game/Globals/PlanetDisplayNameDatabase"
+      ]
+    },
+    {
+      "module": "/Script/AkAudio",
+      "usage_count": 263,
+      "used_by": [
+        "/Game/Globals/MusicActor",
+        "/Game/Globals/SaveGameDisplayHelper",
+        "/Game/UI/LoadScreen",
+        "/Game/UI/PAXLoadScreen",
+        "/Game/UI/Interactions/UniversalTooltipWidget"
+      ]
+    },
+    {
+      "module": "/Script/SlateCore",
+      "usage_count": 140,
+      "used_by": [
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/UI/ConfirmLogout",
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/GamepadCursor",
+        "/Game/UI/InterMapLoadingSpinner"
+      ]
+    },
+    {
+      "module": "/Script/InputCore",
+      "usage_count": 127,
+      "used_by": [
+        "/Game/Globals/PlayControllerInstance",
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/InterMapLoadScreen",
+        "/Game/UI/LoadingSpinner",
+        "/Game/UI/LoadScreen"
+      ]
+    },
+    {
+      "module": "/Script/ClothingSystemRuntimeNv",
+      "usage_count": 68,
+      "used_by": [
+        "/Game/UI/content/buttons/ButtonActorBase",
+        "/Game/Character/AstroCorpse",
+        "/Game/Character/DesignAstro",
+        "/Game/Vehicles/Rover_Base",
+        "/Game/Items/ItemTypes/Components/Shuttle"
+      ]
+    },
+    {
+      "module": "/Script/AnimGraphRuntime",
+      "usage_count": 67,
+      "used_by": [
+        "/Game/Vehicles/Rover/rover_large_BP",
+        "/Game/Vehicles/spaceship_large/spaceship_large_BP",
+        "/Game/Vehicles/spaceship_xlarge/spaceship_xlarge_BP",
+        "/Game/Vehicles/VTOL/VTOL_anim_BP",
+        "/Game/Components_Large/Content/crane_bp"
+      ]
+    },
+    {
+      "module": "/Script/AstroPlayFab",
+      "usage_count": 62,
+      "used_by": [
+        "/Game/UI/MicroTxnStore/WBP_BundleSubItem",
+        "/Game/UI/MicroTxnStore/WBP_BundleTile",
+        "/Game/UI/MicroTxnStore/WBP_CostPanel",
+        "/Game/UI/MicroTxnStore/WBP_PurchaseCurrencyDialog",
+        "/Game/UI/MicroTxnStore/WBP_StoreBuyPanel"
+      ]
+    },
+    {
+      "module": "/Script/MovieScene",
+      "usage_count": 49,
+      "used_by": [
+        "/Game/UI/Cursor_Main_01",
+        "/Game/UI/Cursor_Main_Small",
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/ErrorWidget",
+        "/Game/UI/FadeToBlackScreen"
+      ]
+    },
+    {
+      "module": "/Script/MovieSceneTracks",
+      "usage_count": 48,
+      "used_by": [
+        "/Game/UI/Cursor_Main_01",
+        "/Game/UI/Cursor_Main_Small",
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/ErrorWidget",
+        "/Game/UI/FadeToBlackScreen"
+      ]
+    },
+    {
+      "module": "/Script/PhysicsCore",
+      "usage_count": 20,
+      "used_by": [
+        "/Game/Character/DesignAstro",
+        "/Game/Character/Astro/AstroPhysicsMaterial",
+        "/Game/Vehicles/Hoverboard_BP",
+        "/Game/Items/ItemTypes/Components/RoverT1",
+        "/Game/Vehicles/Rover_Base"
+      ]
+    },
+    {
+      "module": "/Script/AnalyticsBlueprintLibrary",
+      "usage_count": 17,
+      "used_by": [
+        "/Game/UI/MicroTxnStore/WBP_StoreMenu",
+        "/Game/UI/PauseMenu/FullScreenMOTD",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MessageOfTheDay",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MarketingWidgets/MarketingWidget",
+        "/Game/UI/PauseMenu/SubMenus/GameMenuAstropediaSubmenu"
+      ]
+    },
+    {
+      "module": "/Script/AstroPlayFabBPL",
+      "usage_count": 9,
+      "used_by": [
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/UI/PauseMenu/Popouts/PopoutContents/RedeemCodePopoutContents",
+        "/Game/UI/PauseMenu/SubMenus/CustomizationMenu/WBP_CustomizationMenuPane",
+        "/Game/UI/PauseMenu/SubMenus/CustomizationMenu/WBP_CustomizationTile",
+        "/Game/UI/PauseMenu/SubMenus/CustomizationMenu/WBP_CustomizationTileGrid"
+      ]
+    },
+    {
+      "module": "/Script/MessageOfTheDay",
+      "usage_count": 8,
+      "used_by": [
+        "/Game/UI/PauseMenu/FullScreenMOTD",
+        "/Game/UI/PauseMenu/GameMenuRoot",
+        "/Game/UI/PauseMenu/TitleBanner",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MessageOfTheDay",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MarketingWidgets/MarketingWidget"
+      ]
+    },
+    {
+      "module": "/Script/MediaAssets",
+      "usage_count": 6,
+      "used_by": [
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/InterMapLoadingSpinner",
+        "/Game/UI/LaunchSequenceLoadingSpinner",
+        "/Game/UI/Video/LoadingSpinner",
+        "/Game/Effects/ParticleSystems/Portal/M_Portal_Wanderer"
+      ]
+    },
+    {
+      "module": "/Script/PlayFab",
+      "usage_count": 6,
+      "used_by": [
+        "/Game/UI/PauseMenu/FullScreenMOTD",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MessageOfTheDay",
+        "/Game/UI/PauseMenu/MessageOfTheDay/MarketingWidgets/MarketingWidget",
+        "/Game/UI/PauseMenu/Popouts/PopoutContents/ManageServerConnectedPlayerPopoutContents",
+        "/Game/UI/PauseMenu/UpsellDisplay/UpsellWidget"
+      ]
+    },
+    {
+      "module": "/Script/Slate",
+      "usage_count": 4,
+      "used_by": [
+        "/Game/UI/ActionWheel/ActionWheel",
+        "/Game/UI/EmoteWheel/EmoteWheel",
+        "/Game/UI/PauseMenu/SubMenus/CustomizationMenu/WBP_CustomizationTileGrid",
+        "/Game/UI/Tutorial/TutorialCardWrapper"
+      ]
+    },
+    {
+      "module": "/Script/AstroOnline",
+      "usage_count": 2,
+      "used_by": [
+        "/Game/UI/PauseMenu/Popouts/PopoutContents/ManageFriendPopoutContents",
+        "/Game/UI/PauseMenu/SubMenus/SubSections/GameMenuFriendsAndServersSubsection"
+      ]
+    }
+  ],
+  "top_game_assets": [
+    {
+      "asset": "/Game/Animations/Characters/OGSuit/Suit2_skinned_Skeleton",
+      "usage_count": 1894,
+      "used_by": [
+        "/Game/Animations/Characters/AridSuit/AridSuit_AnimBP",
+        "/Game/Animations/Characters/AridSuit/AridSuit_BeckonMontage",
+        "/Game/Animations/Characters/AridSuit/AridSuit_ChestBumpMontage"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_suit_masks_color",
+      "usage_count": 825,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_disintegrator_chronos",
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_alpha_fill"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_suit_masks_physical",
+      "usage_count": 822,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_disintegrator_chronos",
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_alpha_fill"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_suit_masks_shade",
+      "usage_count": 807,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_alpha_fill",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_vertexanim_control"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_suit_diffuse",
+      "usage_count": 800,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_disintegrator_chronos",
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_alpha_fill"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_suit_masks_other",
+      "usage_count": 765,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_vertexanim_control",
+        "/Game/Materials/character/M_palette_exo_suits_cosmetics_vertexanim_floating_alphafill"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/T_foliage_lut",
+      "usage_count": 762,
+      "used_by": [
+        "/Game/Materials/MasterMaterials/M_Master_MultiLayer_Responsive",
+        "/Game/Materials/modules/MI_module_refinery_cauldrangea_goo",
+        "/Game/Materials/TerrainMat/TerrainMat_Crystal_GW_Dither"
+      ]
+    },
+    {
+      "asset": "/Game/Effects/Shared/Textures/T_3D_CurlNoise",
+      "usage_count": 757,
+      "used_by": [
+        "/Game/Effects/ParticleSystems/Explosions/MI_ExplosionDust",
+        "/Game/Effects/ParticleSystems/FootFalls/MI_FX_FootfallPoof",
+        "/Game/Effects/ParticleSystems/Radiation/M_RadiationGas"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/PivotPainterData/plant_bannerleaf_01a_rgb_PivotPos_a_ParentIndexInt_UV",
+      "usage_count": 757,
+      "used_by": [
+        "/Game/Materials/MasterMaterials/M_Master_MultiLayer_Responsive",
+        "/Game/Materials/modules/MI_module_refinery_cauldrangea_goo",
+        "/Game/Materials/modules/MI_palette_exo_modern_pivotPainter_horn_T1a"
+      ]
+    },
+    {
+      "asset": "/Game/Animations/Astro_PlaySurfaceFoley",
+      "usage_count": 559,
+      "used_by": [
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Awkward",
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Banks",
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Chicken"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/T_Pattern_Test",
+      "usage_count": 537,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_suits_advanced",
+        "/Game/Materials/character/M_suits_advanced_animated_pattern"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/UnlockRequirements",
+      "usage_count": 448,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/FakeQbitPointer",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/UnlockRequirements.UnlockRequirements",
+      "usage_count": 447,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/FakeQbitPointer",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes"
+      ]
+    },
+    {
+      "asset": "/Game/Effects/ParticleSystems/FootFalls/PS_Footpuff_01",
+      "usage_count": 415,
+      "used_by": [
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Banks",
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Broom",
+        "/Game/Animations/Characters/AridSuit/AridSuit_dance_Horsey"
+      ]
+    },
+    {
+      "asset": "/Game/Particles/Textures/t_perlinflow",
+      "usage_count": 273,
+      "used_by": [
+        "/Game/Effects/ParticleSystems/Chronos/MI_FX_SpaceDust_Beam",
+        "/Game/Effects/ParticleSystems/Chronos/M_FX_SpaceDust",
+        "/Game/Effects/Shared/Materials/Dust/M_Dust_Flat_Simple"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/PajamaSuit",
+      "usage_count": 272,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Tiremarks"
+      ]
+    },
+    {
+      "asset": "/Game/Effects/Shared/Textures/t_noise_flames",
+      "usage_count": 271,
+      "used_by": [
+        "/Game/Effects/ParticleSystems/Chronos/MI_FX_SpaceDust_Beam",
+        "/Game/Effects/ParticleSystems/Chronos/MI_RadialRift_Sphere_Impact",
+        "/Game/Effects/ParticleSystems/Chronos/M_FX_SpaceDust"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/RetroSuit",
+      "usage_count": 266,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Tiremarks"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Researchables.Researchables",
+      "usage_count": 263,
+      "used_by": [
+        "/Game/Items/ItemTypes/Destructibles/Destructible_PlacementActor_BoulderIce_IT",
+        "/Game/Items/ItemTypes/Destructibles/Destructible_PlacementActor_BoulderStone_IT",
+        "/Game/Items/ItemTypes/Intermediates/Fall_Biofuel2024_IT"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/Visors/T_visor_orbitals_logo",
+      "usage_count": 257,
+      "used_by": [
+        "/Game/Materials/character/CustomPalettes/Overrides/BoxBot/MI_visor_graphic_leek_boxbot_SO",
+        "/Game/Materials/character/CustomVisors/MI_toy_galaxy_globe",
+        "/Game/Materials/character/CustomVisors/MI_visor_clouds"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Researchables",
+      "usage_count": 256,
+      "used_by": [
+        "/Game/Items/ItemTypes/Destructibles/Destructible_PlacementActor_BoulderIce_IT",
+        "/Game/Items/ItemTypes/Destructibles/Destructible_PlacementActor_BoulderStone_IT",
+        "/Game/Items/ItemTypes/Intermediates/Fall_Biofuel2024_IT"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/flat_normals",
+      "usage_count": 256,
+      "used_by": [
+        "/Game/Materials/character/MI_suits_pattern_IceKnight",
+        "/Game/Materials/character/M_suits_advanced_control_animation_V2",
+        "/Game/Materials/character/M_suits_emissive_fungus"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_modern_diffuse",
+      "usage_count": 241,
+      "used_by": [
+        "/Game/Materials/modules/MI_actuator_repeater_button",
+        "/Game/Materials/modules/MI_actuator_repeater_delay",
+        "/Game/Materials/modules/MI_actuator_sensor_battery"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/TerranSuit",
+      "usage_count": 235,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Materials/modules/palette_exo_modern",
+      "usage_count": 218,
+      "used_by": [
+        "/Game/Vehicles/Rails/RailNetworkInstance",
+        "/Game/Components_Large/Content/crane_large",
+        "/Game/Components_Large/Content/seat_large/seat_largethree"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Modules",
+      "usage_count": 215,
+      "used_by": [
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/CharacterCustomization/Bundles/AbyssalAnglerBundle",
+        "/Game/Globals/CharacterCustomization/Bundles/BoxBotBundle"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/WandererSuit",
+      "usage_count": 215,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Art_Deco2",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/PS4Suit",
+      "usage_count": 209,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Glitch_Pattern"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/BarrenSuit",
+      "usage_count": 207,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Tiremarks"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/ThingSuit",
+      "usage_count": 205,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Scenarios/ProceduralActorBase",
+      "usage_count": 205,
+      "used_by": [
+        "/Game/Scenarios/Harvestables/Harvestable_BASE",
+        "/Game/Scenarios/Harvestables/Harvestable_Demo",
+        "/Game/Scenarios/Harvestables/Planets/Arid/Harvestable_Arid_Core"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/bubbling2",
+      "usage_count": 200,
+      "used_by": [
+        "/Game/Effects/ParticleSystems/Megastructure/MI_LavaLamp01",
+        "/Game/Effects/ParticleSystems/Megastructure/MI_LavaLamp01_Liquid",
+        "/Game/Effects/ParticleSystems/Megastructure/MI_LavaLamp01_Liquid_Green"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/MooSuit",
+      "usage_count": 199,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/TundraSuit",
+      "usage_count": 199,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Frank_HiViz",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/SpeedSuit",
+      "usage_count": 198,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Binary_Dots",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Candycane"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/AridSuit",
+      "usage_count": 195,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Starter"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/LynSuit",
+      "usage_count": 194,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_modern_emissive",
+      "usage_count": 192,
+      "used_by": [
+        "/Game/Materials/modules/MI_actuator_repeater_button",
+        "/Game/Materials/modules/MI_actuator_repeater_delay",
+        "/Game/Materials/modules/MI_actuator_sensor_battery"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/OldSchoolSuit",
+      "usage_count": 189,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Binary_Dots"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/SplitSuit",
+      "usage_count": 187,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Metal_HardMode"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/CommanderSuit",
+      "usage_count": 184,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Art_Deco",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Art_Deco2"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/TinkerSuit",
+      "usage_count": 182,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Items",
+      "usage_count": 180,
+      "used_by": [
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/UI/Tutorial/Tutorial_AutoItems",
+        "/Game/Vehicles/Hoverboard_IT"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_modern_masks",
+      "usage_count": 179,
+      "used_by": [
+        "/Game/Materials/character/CustomPalettes/MI_suits_palette_Zebra_ombre",
+        "/Game/Materials/character/CustomPalettes/M_suits_palette_Zebra_ombre",
+        "/Game/Materials/character/CustomPalettes/Overrides/Athleisure/MI_suits_palette_Zebra_ombre_Athleisure_SO"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/palette_exo_modern_masks_curves",
+      "usage_count": 179,
+      "used_by": [
+        "/Game/Materials/modules/MI_actuator_repeater_button",
+        "/Game/Materials/modules/MI_actuator_repeater_delay",
+        "/Game/Materials/modules/MI_actuator_sensor_battery"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Items.Items",
+      "usage_count": 178,
+      "used_by": [
+        "/Game/UI/Tutorial/Tutorial_AutoItems",
+        "/Game/Vehicles/Hoverboard_IT",
+        "/Game/Vehicles/GravitySphere/GravitySphere_Large_IT"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/CharacterPalettes",
+      "usage_count": 168,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/CharacterPalettes.CharacterPalettes",
+      "usage_count": 168,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/f1sUIT",
+      "usage_count": 168,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Art_Deco",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Art_Deco2",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bolted"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/ExpeditionSuit",
+      "usage_count": 168,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro",
+        "/Game/Effects/ParticleSystems/Cosmetics/PS_Quickthinking"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_palette",
+      "usage_count": 164,
+      "used_by": [
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/EvoSuit",
+      "usage_count": 164,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Abyssal_Scales",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Tiremarks"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_palette.ui_icon_item_palette",
+      "usage_count": 162,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/BoxBotSuit",
+      "usage_count": 160,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Bundles/BoxBotBundle",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Candycane"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/StarterSuit",
+      "usage_count": 158,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Angular_Tiremarks",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/ChronosSuit",
+      "usage_count": 154,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Atlas/icon_atlas_buttons",
+      "usage_count": 149,
+      "used_by": [
+        "/Game/Materials/modules/MI_actuator_repeater_button",
+        "/Game/Materials/modules/MI_actuator_repeater_delay",
+        "/Game/Materials/modules/MI_actuator_sensor_battery"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/Palettes/T_pattern_wizard_stars",
+      "usage_count": 147,
+      "used_by": [
+        "/Game/Materials/character/M_suits_advanced_pattern_trigradient_control",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_art_deco",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_art_deco2"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/ExoticSuit",
+      "usage_count": 146,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin"
+      ]
+    },
+    {
+      "asset": "/Game/Scenarios/Content/Beryl/SSS_Beryl",
+      "usage_count": 146,
+      "used_by": [
+        "/Game/Materials/M_Marble_Parallax",
+        "/Game/Materials/character/M_suits_galaxy",
+        "/Game/Materials/character/CustomPalettes/MI_suits_galaxy_ALTE_snowmen_common_core"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Generic/ui_icon_star",
+      "usage_count": 144,
+      "used_by": [
+        "/Game/Globals/Compass/Compass",
+        "/Game/UI/PauseMenu/FriendsInGameListEntry",
+        "/Game/UI/PauseMenu/TabBarButtons/GameMenuTabBarButtonCustomization"
+      ]
+    },
+    {
+      "asset": "/Game/Materials/character/CustomCosmetics/MI_palette_exo_suits_cosmetics_standard",
+      "usage_count": 144,
+      "used_by": [
+        "/Game/Animations/Objects/Terrarium/Fox/fox_skinned",
+        "/Game/Materials/character/CustomCosmetics/MI_palette_exo_suits_cosmetics_bird_parts",
+        "/Game/Materials/character/CustomCosmetics/MI_palette_exo_suits_cosmetics_bone_parts"
+      ]
+    },
+    {
+      "asset": "/Game/Items/ItemTypes/Minables/Organic",
+      "usage_count": 143,
+      "used_by": [
+        "/Game/Globals/ItemTradeValueTable",
+        "/Game/Globals/ScrapConversionTable",
+        "/Game/Globals/SoilConversionTable"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/ConductorSuit",
+      "usage_count": 140,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_BlackLeather",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_CptPlanet"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/RadiatedSuit",
+      "usage_count": 140,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Sequins"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/StrengthSuit",
+      "usage_count": 139,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_BlackLeather"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/SnailFarmerSuit",
+      "usage_count": 139,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Clouds",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly"
+      ]
+    },
+    {
+      "asset": "/Game/Items/ItemTypes/Components/Research_Discovery",
+      "usage_count": 138,
+      "used_by": [
+        "/Game/Components_Medium/Research_Discovery",
+        "/Game/Components_Medium/Research_Discovery",
+        "/Game/Items/ItemTypes/Destructibles/Destructible_PlacementActor_RailItem_Obelisk_IT"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/RobotSuit",
+      "usage_count": 137,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Bundles/RobotBundle",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Anniversary",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Actions/ui_action_research1",
+      "usage_count": 135,
+      "used_by": [
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/UI/PauseMenu/CustomGameMode/TabBarButtons/GameMenuTabBarButton_CGM_Research",
+        "/Game/UI/PauseMenu/CustomGameMode/TabBarButtons/adminflow/GameMenuTabBarButton_CGM_DS_Research"
+      ]
+    },
+    {
+      "asset": "/Game/Scenarios/Research_Items/Content/ResearchableItems/Researchable_Base",
+      "usage_count": 135,
+      "used_by": [
+        "/Game/Items/ItemTypes/Researchables/ItemType_Researchable_Base",
+        "/Game/Items/Snails/ShellSnail_Atrox",
+        "/Game/Items/Snails/ShellSnail_Base"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/POIs",
+      "usage_count": 134,
+      "used_by": [
+        "/Game/Globals/AstroGameSingletonInstance",
+        "/Game/Character/AstroCorpse_Discovery",
+        "/Game/Components_Medium/Thruster_Medium_Consumable"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/LabSuit",
+      "usage_count": 134,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bolted",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bolted2"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Packages/ui_icon_package_researchplatform",
+      "usage_count": 133,
+      "used_by": [
+        "/Game/Items/Catalog/CatalogItemInfo",
+        "/Game/Components_Large/ResearchModule/ResearchModule_Tier2",
+        "/Game/Items/ResearchItems/Exo/Research_Item_Exo_01"
+      ]
+    },
+    {
+      "asset": "/Game/Items/ItemTypes/Minables/Compound",
+      "usage_count": 132,
+      "used_by": [
+        "/Game/Globals/AstroGameSingletonInstance",
+        "/Game/Globals/ItemTradeValueTable",
+        "/Game/Globals/ScrapConversionTable"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/BioSuit",
+      "usage_count": 132,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bolted2",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/POIs.POIs",
+      "usage_count": 130,
+      "used_by": [
+        "/Game/Globals/AstroGameSingletonInstance",
+        "/Game/Character/AstroCorpse_Discovery",
+        "/Game/Components_Small/Bundles/DebrisBundle"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/T_Stars_Map",
+      "usage_count": 126,
+      "used_by": [
+        "/Game/Materials/M_Marble_Parallax",
+        "/Game/Materials/character/M_suits_galaxy",
+        "/Game/Materials/character/CustomPalettes/MI_suits_galaxy_ALTE_snowmen_common_core"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/FlyFisherSuit",
+      "usage_count": 124,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultCharacterPalette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer2Palette",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/DefaultPlayer3Palette"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/BubbleSuit",
+      "usage_count": 123,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Bundles/SnailFarmerBundle",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_ingredients",
+      "usage_count": 123,
+      "used_by": [
+        "/Game/Items/ItemTypes/Researchables/ItemType_Researchable_Base",
+        "/Game/Items/ItemTypes/Researchables/ItemType_Researchable_EXO_High_01",
+        "/Game/Globals/StringTables/Researchables"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/OGSuit",
+      "usage_count": 122,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/GameMenu",
+      "usage_count": 117,
+      "used_by": [
+        "/Game/Globals/AstroBlueprintLibrary",
+        "/Game/Globals/AstroGameMenuTutorialSlides",
+        "/Game/Globals/AstroNotificationDatabase"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/CharacterCustomization/Suits/HardspaceSuit",
+      "usage_count": 116,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Bee",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_CptPlanet",
+        "/Game/Globals/CharacterCustomization/CharacterPalettes/Palette_Character_Jolly"
+      ]
+    },
+    {
+      "asset": "/Game/Models/Decorators/plant/M_Master_MultiLayer_Inst",
+      "usage_count": 115,
+      "used_by": [
+        "/Game/Materials/modules/MI_module_refinery_cauldrangea_goo",
+        "/Game/Models/Decorators/Grass/MI_grass_basic_group_01a",
+        "/Game/Models/Decorators/Grass/MI_grass_narrowfurm_01a"
+      ]
+    },
+    {
+      "asset": "/Game/Materials/modules/palette_exo_dynamic_lights_overlay",
+      "usage_count": 114,
+      "used_by": [
+        "/Game/Items/Packages/PackagedItem_HolidayGift_Common",
+        "/Game/Items/Packages/PackagedItem_HolidayGift_Rare",
+        "/Game/Items/Packages/PackagedItem_HolidayGift_Uncommon"
+      ]
+    },
+    {
+      "asset": "/Game/UI/fonts/AstroneerFont",
+      "usage_count": 110,
+      "used_by": [
+        "/Game/Globals/AstroUIStylingDatabase",
+        "/Game/UI/CustomGameNoRespawnsDeathScreen",
+        "/Game/UI/EarlyAccessWatermark"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/Palettes/T_palette_bolted_masks",
+      "usage_count": 109,
+      "used_by": [
+        "/Game/Materials/character/M_suits_pattern_normal_mask_control_advanced",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_bolted",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_bolted2"
+      ]
+    },
+    {
+      "asset": "/Game/Textures/Palettes/T_palette_bolted_normal",
+      "usage_count": 109,
+      "used_by": [
+        "/Game/Materials/character/M_suits_pattern_normal_mask_control_advanced",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_bolted",
+        "/Game/Materials/character/CustomPalettes/MI_palette_suits_bolted2"
+      ]
+    },
+    {
+      "asset": "/Game/Materials/icons/icon_white",
+      "usage_count": 108,
+      "used_by": [
+        "/Game/UI/content/buttons/concepts/button_refine3",
+        "/Game/UI/content/buttons/concepts/button_refine3a",
+        "/Game/UI/content/buttons/concepts/button_refineryMouseOver2"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/GameMenu.GameMenu",
+      "usage_count": 105,
+      "used_by": [
+        "/Game/Globals/AstroGameMenuTutorialSlides",
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/DiscreteInputDefinitionDatabase"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_hat",
+      "usage_count": 105,
+      "used_by": [
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_visor",
+      "usage_count": 105,
+      "used_by": [
+        "/Game/Globals/AstroNotificationDatabase",
+        "/Game/Globals/CharacterCustomization/VisorColors/DefaultVisorMaterial",
+        "/Game/Globals/CharacterCustomization/VisorColors/Visor_Angular_Stripes"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_hat.ui_icon_item_hat",
+      "usage_count": 103,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro",
+        "/Game/Effects/ParticleSystems/Cosmetics/PS_Quickthinking"
+      ]
+    },
+    {
+      "asset": "/Game/UI/Textures/Icons/Items/ui_icon_item_visor.ui_icon_item_visor",
+      "usage_count": 102,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/VisorColors/DefaultVisorMaterial",
+        "/Game/Globals/CharacterCustomization/VisorColors/Visor_Angular_Stripes",
+        "/Game/Globals/CharacterCustomization/VisorColors/Visor_Anniversary"
+      ]
+    },
+    {
+      "asset": "/Game/Slots/ChassisSlots/Resource_2Slot",
+      "usage_count": 102,
+      "used_by": [
+        "/Game/Character/DesignAstro",
+        "/Game/Components_Large/Printer_Vehicles",
+        "/Game/Components_Medium/BP_CheatPlinth_MediumCanister"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Hats",
+      "usage_count": 100,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro",
+        "/Game/Effects/ParticleSystems/Cosmetics/PS_Quickthinking"
+      ]
+    },
+    {
+      "asset": "/Game/Globals/StringTables/Hats.Hats",
+      "usage_count": 100,
+      "used_by": [
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Aero_Fin",
+        "/Game/Globals/CharacterCustomization/Hats/Hat_Afro",
+        "/Game/Effects/ParticleSystems/Cosmetics/PS_Quickthinking"
+      ]
+    },
+    {
+      "asset": "/Game/Scenarios/Research_Items/T2/Research_T2Static_Base",
+      "usage_count": 99,
+      "used_by": [
+        "/Game/Scenarios/POIs/Destructibles/Destructible_PlacementActor_RailItem_Obelisk",
+        "/Game/Scenarios/POIs/Missions/PlacementActor_RailItem_Artifact",
+        "/Game/Scenarios/POIs/Missions/PlacementActor_RailItem_Freight"
+      ]
+    },
+    {
+      "asset": "/Game/Slots/ChassisSlots/ChassisSlot",
+      "usage_count": 98,
+      "used_by": [
+        "/Game/Items/ItemTypes/Components/RoverT1",
+        "/Game/Items/ItemTypes/Components/RoverT2",
+        "/Game/Items/ItemTypes/Components/RoverT2B"
+      ]
+    }
+  ]
+}
